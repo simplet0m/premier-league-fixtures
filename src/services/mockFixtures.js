@@ -19,5 +19,12 @@ export const mockFixtures = [
         awayTeam: "Manchester City",
         utcDate: "2026-02-23T20:00:00Z",
         matchday: 25
+    },
+    {
+        id: 4,
+        homeTeam: "Crystal Palace",
+        awayTeam: "Everton",
+        utcDate: "2026-02-23T20:00:00Z",
+        matchday: 25
     }
 ];
