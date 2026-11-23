@@ -9,7 +9,7 @@
 - Prediction engine: initially Node.js; Python may be introduced later if justified and approved.
 - Repository: a single repository using npm workspaces, with separate frontend and backend applications.
 
-This plan records the agreed decisions for Milestone 1; older proposed or open decisions in existing documents have not yet been updated.
+This plan records the agreed decisions and delivery approach for Milestone 1. Outstanding product and implementation decisions are identified in the requirements and architecture documents.
 
 ## Delivery roadmap
 
@@ -22,13 +22,15 @@ This plan records the agreed decisions for Milestone 1; older proposed or open d
 7. Advanced analytics.
 8. Commercial launch.
 
+The roadmap identifies delivery milestones only; it does not, by itself, approve which product features belong in each milestone. Feature scope and allocation require product owner approval.
+
 ## Milestone 1 – Project foundation
 
 **Deliverable:** A working React application communicating with our own Node.js/Express backend and PostgreSQL database.
 
 Work will be delivered and reviewed in small, testable stages:
 
-1. **Project decisions and documentation:** Record the agreed scope and architecture, outstanding decisions and acceptance criteria. Obtain product owner approval for significant decisions.
+1. **Project decisions and documentation:** Identify and agree milestone acceptance criteria with the product owner, then record the agreed scope and architecture, outstanding decisions and criteria. Obtain product owner approval for significant decisions.
 2. **Repository preparation:** Organise separate frontend and backend applications using npm workspaces. Define environment configuration, ESLint and supported Node version requirements; keep secrets out of Git.
 3. **Backend foundation:** Establish the Express 5 application, validate configuration at startup, and provide a health endpoint, central error handling and logging.
 4. **PostgreSQL foundation:** Establish and verify the database connection and a repeatable migration process. Decide the initial schema and migration approach with product owner approval where significant.
